@@ -1,0 +1,188 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+  /* background-image: url(bgimg.jpeg); */
+  background-image: url('pop2.jpg!sw800');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  justify-content: center;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  color: #23527c;
+}
+
+/* Navbar Styles */
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.navbar-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item {
+  margin-right: 2rem;
+}
+
+.nav-link {
+  color: #fff;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #ccc;
+}
+
+/* Jumbotron Styles */
+
+.jumbotron {
+  background-color: #333;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.jumbotron h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Button Styles */
+
+.btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #337ab7;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #23527c;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  clear: both;
+}
+
+footer p {
+  margin-bottom: 0.5rem;
+}
+
+/* Login and Register Styles */
+
+.login-register-form {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login-register-form h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.login-register-form form {
+  margin-top: 2rem;
+}
+
+.login-register-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.login-register-form input[type="text"],
+.login-register-form input[type="email"],
+.login-register-form input[type="password"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+}
+
+.login-register-form button[type="submit"] {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.login-register-form button[type="submit"]:hover {
+  background-color: #23527c;
+}
+
+/* Contact Page Styles */
+
+/* .contact-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.contact-form {
+  margin-top: 2rem;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+} */
+
+/* .contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid
+} */
